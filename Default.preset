@@ -21,12 +21,12 @@ DisableErrorReporting
 DisableDiagTrack
 DisableWAPPush
 
-# SetUACLow
+SetUACLow
 # EnableSharingMappedDrives
 DisableAdminShares
-# DisableSMB1
-# DisableSMBServer
-# DisableLLMNR
+DisableSMB1
+DisableSMBServer
+DisableLLMNR
 SetCurrentNetworkPrivate
 # SetUnknownNetworksPrivate
 # DisableNetDevicesAutoInst
@@ -36,7 +36,7 @@ SetCurrentNetworkPrivate
 # DisableDefenderCloud
 EnableF8BootMenu
 SetDEPOptOut
-# EnableCIMemoryIntegrity
+EnableCIMemoryIntegrity
 DisableScriptHost
 EnableDotNetStrongCrypto
 # EnableMeltdownCompatFlag
@@ -60,16 +60,16 @@ DisableAutorun
 # DisableSleepTimeout
 # DisableFastStartup
 
-DisableActionCenter
+# DisableActionCenter
 HideAccountProtectionWarn
-DisableLockScreen
+# DisableLockScreen
 # DisableLockScreenRS1
-HideNetworkFromLockScreen
-HideShutdownFromLockScreen
+# HideNetworkFromLockScreen
+# HideShutdownFromLockScreen
 DisableStickyKeys
 ShowTaskManagerDetails
 ShowFileOperationsDetails
-# EnableFileDeleteConfirm
+EnableFileDeleteConfirm
 HideTaskbarSearch
 HideTaskView
 ShowSmallTaskbarIcons
@@ -79,7 +79,7 @@ ShowTrayIcons
 DisableSearchAppInStore
 DisableNewAppPrompt
 # SetControlPanelSmallIcons
-SetVisualFXPerformance
+# SetVisualFXPerformance
 # AddENKeyboard
 # EnableNumlock
 
@@ -90,7 +90,7 @@ HideSyncNotifications
 HideRecentShortcuts
 SetExplorerThisPC
 ShowThisPCOnDesktop
-# ShowUserFolderOnDesktop
+ShowUserFolderOnDesktop
 HideDesktopFromThisPC
 # HideDesktopFromExplorer
 HideDocumentsFromThisPC
@@ -106,7 +106,7 @@ HideVideosFromThisPC
 Hide3DObjectsFromThisPC
 # Hide3DObjectsFromExplorer
 # DisableThumbnails
-DisableThumbnailCache
+# DisableThumbnailCache
 DisableThumbsDBOnNetwork
 
 DisableOneDrive
@@ -118,7 +118,7 @@ DisableXboxFeatures
 DisableAdobeFlash
 DisableEdgeShortcutCreation
 # UninstallMediaPlayer
-# UninstallInternetExplorer
+UninstallInternetExplorer
 # UninstallWorkFolders
 # InstallLinuxSubsystem
 # InstallHyperV
