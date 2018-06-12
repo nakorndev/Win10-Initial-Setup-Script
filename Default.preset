@@ -24,9 +24,9 @@ DisableWAPPush
 SetUACLow
 # EnableSharingMappedDrives
 DisableAdminShares
-DisableSMB1
-DisableSMBServer
-DisableLLMNR
+# DisableSMB1
+# DisableSMBServer
+# DisableLLMNR
 SetCurrentNetworkPrivate
 # SetUnknownNetworksPrivate
 # DisableNetDevicesAutoInst
@@ -36,7 +36,7 @@ SetCurrentNetworkPrivate
 # DisableDefenderCloud
 EnableF8BootMenu
 SetDEPOptOut
-EnableCIMemoryIntegrity
+# EnableCIMemoryIntegrity
 DisableScriptHost
 EnableDotNetStrongCrypto
 # EnableMeltdownCompatFlag
@@ -118,7 +118,7 @@ DisableXboxFeatures
 DisableAdobeFlash
 DisableEdgeShortcutCreation
 # UninstallMediaPlayer
-UninstallInternetExplorer
+# UninstallInternetExplorer
 # UninstallWorkFolders
 # InstallLinuxSubsystem
 # InstallHyperV
@@ -140,4 +140,4 @@ RemoveFaxPrinter
 # UnpinTaskbarIcons
 
 WaitForKey
-Restart
+# Restart
