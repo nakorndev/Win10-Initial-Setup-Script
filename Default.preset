@@ -191,4 +191,4 @@ RemoveFaxPrinter                # AddFaxPrinter
 
 ### Auxiliary Functions ###
 WaitForKey
-Restart
+# Restart
