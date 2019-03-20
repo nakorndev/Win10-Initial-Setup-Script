@@ -43,8 +43,8 @@ SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
 # DisableNetDevicesAutoInst     # EnableNetDevicesAutoInst
 # DisableFirewall               # EnableFirewall
 HideDefenderTrayIcon            # ShowDefenderTrayIcon
-DisableDefender                 # EnableDefender
-DisableDefenderCloud            # EnableDefenderCloud
+# DisableDefender               # EnableDefender
+# DisableDefenderCloud          # EnableDefenderCloud
 # EnableCtrldFolderAccess       # DisableCtrldFolderAccess
 # EnableCIMemoryIntegrity       # DisableCIMemoryIntegrity
 # EnableDefenderAppGuard        # DisableDefenderAppGuard
@@ -59,7 +59,7 @@ EnableF8BootMenu                # DisableF8BootMenu
 SetDEPOptOut                    # SetDEPOptIn
 
 ### Service Tweaks ###
-DisableUpdateMSRT               # EnableUpdateMSRT
+# DisableUpdateMSRT             # EnableUpdateMSRT
 # DisableUpdateDriver           # EnableUpdateDriver
 DisableUpdateRestart            # EnableUpdateRestart
 DisableHomeGroups               # EnableHomeGroups
@@ -107,7 +107,7 @@ ShowMostUsedApps                # HideMostUsedApps
 DisableShortcutInName           # EnableShortcutInName
 # HideShortcutArrow             # ShowShortcutArrow
 SetVisualFXAppearance           # SetVisualFXPerformance
-EnableTitleBarColor             # DisableTitleBarColor
+# EnableTitleBarColor           # DisableTitleBarColor
 EnableDarkTheme                 # DisableDarkTheme
 # AddENKeyboard                 # RemoveENKeyboard
 # EnableNumlock                 # DisableNumlock
